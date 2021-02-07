@@ -73,7 +73,17 @@
                 android:layout_alignParentRight="true"
                 android:text="40.000"
                 android:textSize="16dp"
-                android:layout_below="@id/view_garis"/>
+                android:layout_below="@id/view_garis" />
+
+            <TextView
+                android:id="@+id/text_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_total"
+                android:text="SEMUA"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:visibility="gone" />
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

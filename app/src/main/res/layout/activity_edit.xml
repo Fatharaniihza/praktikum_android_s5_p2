@@ -34,8 +34,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="KELUAR"/>
-
             </RadioGroup>
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
@@ -52,7 +52,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:hint="Rp."/>
+                android:hint="Rp." />
+
             <EditText
                 android:id="@+id/edit_keterangan"
                 android:layout_width="match_parent"
@@ -60,7 +61,14 @@
                 android:maxLines="10"
                 android:minLines="5"
                 android:gravity="top|left"
-                android:hint="Keterangan"/>
+                android:hint="Keterangan" />
+
+            <EditText
+                android:id="@+id/edit_tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="Tanggal" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
